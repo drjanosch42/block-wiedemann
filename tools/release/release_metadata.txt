@@ -1,7 +1,0 @@
-extraction_date_utc : 2026-05-19T18:48:00Z
-source_repo_root    : /path/to/block-wiedemann
-source_repo_sha     : 6c15aa62401dfa3c8c45c0c2cc2f6fd384d13a51
-release_version     : 1.0.0
-extractor_version   : 1.0.0
-extractor_path      : tools/release/extract_public.sh
-allowlist_path      : tools/release/public_allowlist.txt
