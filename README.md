@@ -141,6 +141,28 @@ prefixes denote the stage they affect: `autotune_`, `stage1_`,
 `stage2_`, `stage3_`. Individual stages may be skipped via
 `stageN_skip` flags for partial / restart workflows.
 
+## Citation
+
+If you use this solver in academic work, please cite it. Releases are archived
+on Zenodo. This release, v1.0.2, has the version DOI
+[10.5281/zenodo.23136111](https://doi.org/10.5281/zenodo.23136111); cite it to
+pin the exact code you used. The concept DOI
+[10.5281/zenodo.21606734](https://doi.org/10.5281/zenodo.21606734) always
+resolves to the latest block-wiedemann release.
+
+```bibtex
+@software{block_wiedemann_2026,
+  author  = {Januszewski, Fabian},
+  title   = {A GPU-resident Block Wiedemann GF(2) linear-algebra
+             implementation},
+  year    = {2026},
+  version = {1.0.2},
+  doi     = {10.5281/zenodo.23136111},
+  url     = {https://github.com/drjanosch42/block-wiedemann},
+  license = {LGPL-3.0-only}
+}
+```
+
 ## Algorithm references
 
 - Coppersmith, "Solving homogeneous linear equations over GF(2) via
